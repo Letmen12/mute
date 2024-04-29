@@ -96,62 +96,74 @@
   .dropdown:hover .drop-content {
     display: block;
   }
-
-  .bg-img{
-    position: relative;
-    height: auto; 
-    overflow: hidden;
-    z-index: 0;
-  }   
-  .bg-img img {
+  section{
+    display: block;
     width: 100%;
-    object-fit: cover;
-    filter: brightness(50%);
   }
-  section {
-    position: relative;
-    justify-content: center;
-    align-items: center;
+  .bg-img{
+    position: absolute;
     height: 100%;
+    z-index: 0;
+    width: 100%;
   }
-  
-  #bg-text {
+  .bg-img img{
+    height: 100rem;
+    width: 100%;
+  }
+  .bg-text{
     display: flex;
-    flex-direction: column;
-    list-style: none;
-    bottom: 90rem;
-    border-radius: 5px;
-    z-index: 1;
-    position: relative;
-    height: 10rem;
-    color: white;
-    align-items: center;
-    font-size: 40px;
+    width: 100%;
+    padding-top: 5%;
+    flex-direction: row;
+    position: absolute;
+    font-size: 36px;
+    color: aliceblue;
+    text-align: center;
+    justify-content: center;
   }
-  section article{
-    padding-top: 10%;
+  #bg-article{
+    position: absolute;
     display: flex;
     flex-direction: row;
-    list-style: none;
-    bottom: 90rem;
-    z-index: 1;
-    position: relative;
-    align-items: center;
+    padding-top: 20%;
+    width: 80%;
     justify-content: center;
   }
-  section article section img{
-      width: 70%;
-      padding-left: 10%;
-      border-radius: 10%;
-      filter: saturate(50%);
-    }
-    .music{
-      display: flex;
-      flex-direction: row;
-      position: relative;
-    }
-
-  
+  #bg-article aside{
+    width: 30%;
+    height: 20em;
+  }
+  #bg-article section{
+    width: 50%;
+  }
+  .music{
+    background-color: rgb(29, 135, 105);
+    border-radius: 10px;
+    height: 100%;
+  }
+  .music article{
+    display: flex;
+    flex-direction: row;
+  }
+  .music article img{
+    width: 30%;
+    padding-left: 5%;
+    padding-top: 5%;
+    border-radius: 10%;
+  }
+  .music article nav{
+    list-style: none;
+    color: aliceblue;
+    padding-left: 5%;
+    padding-top: 5%;
+    text-align: left;
+    width: 70%;
+  }
+  .music article ul audio{
+    width: 10%;
+    border-radius: 100px;
+    padding-top: 3.5em;
+  }
 
 
 
