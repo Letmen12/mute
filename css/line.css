@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: rgba(27, 42, 22, 1);
+    color: aliceblue;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    width: 100%;
+  }
+  
+ header ul {
+  width: 100%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+  }
+  
+  header ul li {
+    margin-right: 1rem;
+    width: 5em;
+    align-items: center;
+    align-content: center;
+  }
+  header ul article{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  header ul article li{
+    width: 2em;
+  }
+  header ul li a{
+    color: aliceblue;
+    list-style: none;
+    text-decoration: none;
+  }
+
+  #main-logo{
+    width: 3em;
+    height: 2.5em;
+  }
+  
+  .dropdown {
+    position: relative;
+    width: 100%;
+  }
+  
+  .dropbtn {
+    background-color: inherit;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .drop-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(75, 111, 87, 0.77);
+    border-bottom-right-radius: 2em;
+    border-top-right-radius: 2em;
+    min-width: 20rem;
+    height: 25rem;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  
+  }
+  
+  .drop-content a {
+    font-size: 24px;
+    font-family: 'Rubik Glitch', sans-serif;
+    color: yellow;
+    padding: 5%;
+    text-decoration: underline;
+    display: block;
+    text-decoration: none;
+  }
+  
+  .drop-content a:hover {
+    background-color: rgba(75, 111, 87, 0.77);
+  }
+  
+  .dropdown:hover .drop-content {
+    display: block;
+  }
+
+  .bg-img{
+    position: relative;
+    height: auto; 
+    overflow: hidden;
+    z-index: 0;
+  }   
+  .bg-img img {
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(50%);
+  }
+  section {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  #bg-text {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    bottom: 90rem;
+    border-radius: 5px;
+    z-index: 1;
+    position: relative;
+    height: 10rem;
+    color: white;
+    align-items: center;
+    font-size: 40px;
+  }
+  section article{
+    padding-top: 10%;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    bottom: 90rem;
+    z-index: 1;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+  }
+  section article section img{
+      width: 70%;
+      padding-left: 10%;
+      border-radius: 10%;
+      filter: saturate(50%);
+    }
+    .music{
+      display: flex;
+      flex-direction: row;
+      position: relative;
+    }
+
+  
+
+
+
+
+
+
+
+
+
+
+  footer {
+    height: 20rem;
+    background-color: rgba(27, 42, 22, 1);
+    color: aliceblue;
+    padding: 3rem;
+    border-top-left-radius: 10rem;
+    border-top-right-radius: 10rem;
+  }
+  
+  footer nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+  
+  footer nav section{
+    display: flex;
+    flex-direction: row;
+    height: 80%;
+  }
+  footer nav section article{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 60%;
+    border-right-color: black;
+  }
+  footer nav section article menu{
+    list-style: none;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    border-right-color: black;
+  }
+  footer nav article{
+  }
+  footer nav article nav{
+        display: flex;
+        width: 50%;
+        flex-direction: row;
+        list-style: none;
+  }
