@@ -1,0 +1,218 @@
+[
+    {
+        "name": "Amarbayasgalant hotel",
+        "rate": 5,
+        "totalRoad": 2.25,
+        "totalAmount": 80000,
+        "category": [
+            "чингэлтэй",
+            "1 өрөө",
+            "2 өрөө",
+            "3 өрөө"
+        ],
+        "hotelImg": "img/hotel/bk1.webp",
+        "views": 10000
+    },
+    {
+        "name": "Khan Burged Hotel",
+        "rate": 4.5,
+        "totalRoad": 3.25,
+        "totalAmount": 85000,
+        "category": [
+            "чингэлтэй",
+            "1 өрөө",
+            "2 өрөө"
+        ],
+        "hotelImg": "img/hotel/bk2.webp",
+        "views": 11000
+    },
+    {
+        "name": "SATS hotel",
+        "rate": 5,
+        "totalRoad": 0.25,
+        "totalAmount": 100000,
+        "category": [
+            "сүхбаатар",
+            "1 өрөө",
+            "2 өрөө",
+            "3 өрөө"
+        ],
+        "hotelImg": "img/hotel/bk3.webp",
+        "views": 9999
+    },
+    {
+        "name": "Altai Hotel",
+        "rate": 4.5,
+        "totalRoad": 3.25,
+        "totalAmount": 75000,
+        "category": [
+            "сүхбаатар",
+            "1 өрөө",
+            "2 өрөө",
+            "3 өрөө"
+        ],
+        "hotelImg": "img/hotel/bk4.webp",
+        "views": 10000
+    },
+    {
+        "name": "Amure hotel",
+        "rate": 5,
+        "totalRoad": 1.25,
+        "totalAmount": 60000,
+        "category": [
+            "чингэлтэй",
+            "3 өрөө"
+        ],
+        "hotelImg": "img/hotel/bk5.webp",
+        "views": 10000
+    },
+    {
+        "name": "Angara hotel",
+        "rate": 5,
+        "totalRoad": 3.45,
+        "totalAmount": 88000,
+        "category": [
+            "чингэлтэй",
+            "1 өрөө",
+            "2 өрөө"
+        ],
+        "hotelImg": "img/hotel/bk6.webp",
+        "views": 10000
+    },
+    {
+        "name": "Онч Хайрхан",
+        "rate": 3.5,
+        "totalRoad": 10.25,
+        "totalAmount": 50000,
+        "category": [
+            "сүхбаатар",
+            "1 өрөө",
+            "3 өрөө"
+        ],
+        "hotelImg": "img/hotel/bk7.webp",
+        "views": 10000
+    },
+    {
+        "name": "Atlas hotel",
+        "rate": 5,
+        "totalRoad": 0.25,
+        "totalAmount": 90000,
+        "category": [
+            "чингэлтэй",
+            "1 өрөө",
+            "2 өрөө",
+            "3 өрөө"
+        ],
+        "hotelImg": "img/hotel/bk8.webp",
+        "views": 10000
+    },
+    {
+        "name": "BAYANGOL HOTEL",
+        "rate": 4.5,
+        "totalRoad": 1.25,
+        "totalAmount": 120000,
+        "category": [
+            "сүхбаатар",
+            "1 өрөө",
+            "2 өрөө",
+            "3 өрөө"
+        ],
+        "hotelImg": "img/hotel/bk9.webp",
+        "views": 10000
+    },
+    {
+        "name": "Jargalant hotel",
+        "rate": 3.5,
+        "totalRoad": 5.25,
+        "totalAmount": 100000,
+        "category": [
+            "баянзүрх",
+            "2 өрөө",
+            "3 өрөө"
+        ],
+        "hotelImg": "img/hotel/bk10.webp",
+        "views": 10000
+    },
+    {
+        "name": "New star hotel",
+        "rate": 4.5,
+        "totalRoad": 4.25,
+        "totalAmount": 110000,
+        "category": [
+            "чингэлтэй",
+            "1 өрөө",
+            "2 өрөө",
+            "3 өрөө"
+        ],
+        "hotelImg": "img/hotel/bk11.webp",
+        "views": 10000
+    },
+    {
+        "name": "SEOUL HOTEL",
+        "rate": 5,
+        "totalRoad": 10.25,
+        "totalAmount": 115000,
+        "category": [
+            "баянзүрх",
+            "1 өрөө",
+            "2 өрөө"
+        ],
+        "hotelImg": "img/hotel/bk12.webp",
+        "views": 10000
+    },
+    {
+        "name": "Bayankhongor hotel",
+        "rate": 4.5,
+        "totalRoad": 9.25,
+        "totalAmount": 80000,
+        "category": [
+            "хан-уул",
+            "1 өрөө",
+            "3 өрөө"
+        ],
+        "hotelImg": "img/hotel/bk13.webp",
+        "views": 10000
+    },
+    {
+        "name": "Best Western Premier Tuushin hotel",
+        "rate": 5,
+        "totalRoad": 3.25,
+        "totalAmount": 90000,
+        "category": [
+            "хан-уул",
+            "1 өрөө",
+            "2 өрөө",
+            "3 өрөө"
+        ],
+        "hotelImg": "img/hotel/bk14.webp",
+        "views": 10000
+    },
+    {
+        "name": "Bishrelt hotel",
+        "rate": 5,
+        "totalRoad": 0.30,
+        "totalAmount": 90000,
+        "category": [
+            "баянгол",
+            "2 өрөө",
+            "3 өрөө"
+        ],
+        "hotelImg": "img/hotel/bk15.webp",
+        "views": 10000
+    },
+    {
+        "name": "Blue sky hotel",
+        "rate": 5,
+        "totalRoad": 0.20,
+        "totalAmount": 150000,
+        "category": [
+            "сүхбаатар",
+            "1 өрөө",
+            "2 өрөө",
+            "3 өрөө"
+        ],
+        "hotelImg": "img/hotel/bk16.webp",
+        "views": 10000
+    }
+]
+
